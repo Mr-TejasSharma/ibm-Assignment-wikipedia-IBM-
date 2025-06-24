@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f7f9fb;
+    color: #2c3e50;
+  }
+  
+  header {
+    background: #34495e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    margin: 0 12px;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 30px 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+  }
+  
+  .hero img {
+    width: 120px;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    color: #333;
+  }
+  
+  /* Main Content */
+  .content {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px 40px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  }
+  
+  .card h2 {
+    color: #2980b9;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .card a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ecf0f1;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  
